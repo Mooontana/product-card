@@ -92,3 +92,12 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+#color-toggle-button {
+    background-color: blue;
+    color: white;
+}
+#color-toggle-button.active {
+    background-color: red;
+    color: white;
+}
